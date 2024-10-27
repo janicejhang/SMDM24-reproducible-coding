@@ -9,6 +9,6 @@
 
 # read in the sample data -------------------------------------
 data <- read.csv('data.csv')
-
+lapply(data, summary)
 
 # calculate summary statistics --------------------------------
